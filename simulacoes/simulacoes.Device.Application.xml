@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.11.0</Version>
+    <SymbolConfigObject version="3.5.12.10" runtimeid="3.5.12.10" libversion="3.5.11.0" compiler="3.5.12.10" lmm="3.5.12.10" profile="CODESYS V3.5 SP12 Patch 1+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="simulacoes" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="allowStart" type="T_BOOL" access="ReadWrite" />
+        <Node name="batCont" type="T_INT" access="ReadWrite" />
+        <Node name="capMax" type="T_REAL" access="ReadWrite" />
+        <Node name="defaultUnit" type="T_INT" access="ReadWrite" />
+        <Node name="halfCicle" type="T_BOOL" access="ReadWrite" />
+        <Node name="heat" type="T_BOOL" access="ReadWrite" />
+        <Node name="iTankAUnit" type="T_INT" access="ReadWrite" />
+        <Node name="l1" type="T_REAL" access="ReadWrite" />
+        <Node name="l2" type="T_REAL" access="ReadWrite" />
+        <Node name="LimTankAConv" type="T_REAL" access="ReadWrite" />
+        <Node name="LimTankD" type="T_REAL" access="ReadWrite" />
+        <Node name="offset" type="T_REAL" access="ReadWrite" />
+        <Node name="prod" type="T_REAL" access="ReadWrite" />
+        <Node name="rSupI1" type="T_REAL" access="ReadWrite" />
+        <Node name="rSupI2" type="T_REAL" access="ReadWrite" />
+        <Node name="rSupT" type="T_REAL" access="ReadWrite" />
+        <Node name="rTankALevel" type="T_REAL" access="ReadWrite" />
+        <Node name="rTankASP1" type="T_REAL" access="ReadWrite" />
+        <Node name="rTankASP2" type="T_REAL" access="ReadWrite" />
+        <Node name="rTankASPTemp" type="T_REAL" access="ReadWrite" />
+        <Node name="rTankATemp" type="T_REAL" access="ReadWrite" />
+        <Node name="rTankAVol" type="T_REAL" access="ReadWrite" />
+        <Node name="TankAMode" type="T_INT" access="ReadWrite" />
+        <Node name="TankDMode" type="T_INT" access="ReadWrite" />
+        <Node name="xEnableTankA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xEnableTankD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xTankARunning" type="T_BOOL" access="ReadWrite" />
+      </Node>
+      <Node name="ParafusosIOs">
+        <Node name="iParDisplayNivel" type="T_INT" access="ReadWrite" />
+        <Node name="iParDisplayTemp" type="T_INT" access="ReadWrite" />
+        <Node name="iParSPB1" type="T_INT" access="ReadWrite" />
+        <Node name="iParSPB2" type="T_INT" access="ReadWrite" />
+        <Node name="iParSPTemp" type="T_INT" access="ReadWrite" />
+        <Node name="iParTerm" type="T_INT" access="ReadWrite" />
+        <Node name="iParUltras" type="T_INT" access="ReadWrite" />
+        <Node name="xParafAmarD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParafAmarE" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParafBPedD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParafBPedE" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParafVerdD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParafVerdE" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParafVermD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParafVermE" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParAjar" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParAltoD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParAquecA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParAquecD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBaixoD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBClose" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBomba1A" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBomba1D" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBomba2A" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBomba2D" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBomba3A" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBomba3D" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBOpen" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBStartSilo" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBStartTankA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBStartTankD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBStopGar" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBStopSilo" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBStopTankA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParBStopTankD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParChASilo" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParChATankA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParChATankD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParChBSilo" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParChBTankA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParChBTankD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParChCSilo" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParChCTankA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParChCTankD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParFillSilo" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParFluxo1" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParFluxo2" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParFluxo3" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParFullSilo" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParFullTankA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParFullTankD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParIdleA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParIdleD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParLevel" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParLs1" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParLs2" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParMistA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParMistD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParMotor" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParMotorDown" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParMotorUp" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParOpen" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParProx" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParRunSilo" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParRunTankA" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParRunTankD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParShut" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParTermostato" type="T_BOOL" access="ReadWrite" />
+        <Node name="xParValve" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
