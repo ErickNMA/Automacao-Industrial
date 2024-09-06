@@ -25,6 +25,8 @@
         <Node name="LimTankAConv" type="T_REAL" access="ReadWrite" />
         <Node name="LimTankD" type="T_REAL" access="ReadWrite" />
         <Node name="offset" type="T_REAL" access="ReadWrite" />
+        <Node name="processID" type="T_INT" access="ReadWrite" />
+        <Node name="processTarget" type="T_INT" access="ReadWrite" />
         <Node name="prod" type="T_REAL" access="ReadWrite" />
         <Node name="rSupI1" type="T_REAL" access="ReadWrite" />
         <Node name="rSupI2" type="T_REAL" access="ReadWrite" />
@@ -39,6 +41,8 @@
         <Node name="TankDMode" type="T_INT" access="ReadWrite" />
         <Node name="xEnableTankA" type="T_BOOL" access="ReadWrite" />
         <Node name="xEnableTankD" type="T_BOOL" access="ReadWrite" />
+        <Node name="xEndLess" type="T_BOOL" access="ReadWrite" />
+        <Node name="xstopAfterCurrent" type="T_BOOL" access="ReadWrite" />
         <Node name="xTankARunning" type="T_BOOL" access="ReadWrite" />
       </Node>
       <Node name="ParafusosIOs">
