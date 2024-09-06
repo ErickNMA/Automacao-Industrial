@@ -37,6 +37,7 @@
         <Node name="rTankASPTemp" type="T_REAL" access="ReadWrite" />
         <Node name="rTankATemp" type="T_REAL" access="ReadWrite" />
         <Node name="rTankAVol" type="T_REAL" access="ReadWrite" />
+        <Node name="rTankDVol" type="T_REAL" access="ReadWrite" />
         <Node name="TankAMode" type="T_INT" access="ReadWrite" />
         <Node name="TankDMode" type="T_INT" access="ReadWrite" />
         <Node name="xEnableTankA" type="T_BOOL" access="ReadWrite" />
